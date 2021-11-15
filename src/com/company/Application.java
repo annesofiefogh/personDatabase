@@ -43,7 +43,7 @@ public class Application {
         }
     }
 
-    public void createPerson() {
+    private void createPerson() {
         ui.createPersonPrint(Prints.WRITE_FIRSTNAME_INFO);
         String firstName = ui.scannerString();
         ui.createPersonPrint(Prints.WRITE_LASTNAME_INFO);
